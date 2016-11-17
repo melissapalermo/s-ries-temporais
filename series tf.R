@@ -32,4 +32,6 @@ dygraph(serie_2, main="Diferença de pressão normalizada entre Tahiti e Darwin"
 acf(serie_1, main="Função de Autocorrelação")#ex1
 acf(serie_2, main="Função de Autocorrelação")#ex2
 
+pacf(serie_1, main="Função de Autocorrelação Parcial")#ex1
+pacf(serie_2, main="Função de Autocorrelação Parcial")#ex2
 
