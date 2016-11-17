@@ -29,5 +29,7 @@ dygraph(serie_2, main="Diferença de pressão normalizada entre Tahiti e Darwin"
 
 #salvar como html que continua dinâmico.
 
+acf(serie_1, main="Função de Autocorrelação")#ex1
+acf(serie_2, main="Função de Autocorrelação")#ex2
 
 
