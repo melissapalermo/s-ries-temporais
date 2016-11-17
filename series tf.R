@@ -46,3 +46,7 @@ modelo2 <- arima(serie_2, order = c(2,0,0))
 par(mfrow=c(1,2))
 acf(residuals(modelo2))
 pacf(residuals(modelo2))
+
+# teste para verificar se a serie e estacionaria: adf.test(serie)
+
+
