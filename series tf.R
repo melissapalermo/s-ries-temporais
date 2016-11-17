@@ -35,3 +35,6 @@ acf(serie_2, main="Função de Autocorrelação")#ex2
 pacf(serie_1, main="Função de Autocorrelação Parcial")#ex1
 pacf(serie_2, main="Função de Autocorrelação Parcial")#ex2
 
+
+#ex1 precisa tirar a tendencia, mas nao sera estacionario, tem ciclos sugrito SARIMA(0,0,1)(0,0,1)12 porque é anual
+#ex2 esta com cara de um AR(1)
