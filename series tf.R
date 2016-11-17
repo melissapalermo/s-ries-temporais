@@ -38,3 +38,11 @@ acf(serie_2, main="Função de Autocorrelação")#ex2
 
 #ex1 precisa tirar a tendencia, mas nao sera estacionario, tem ciclos sugrito SARIMA(0,0,1)(0,0,1)12 porque é anual
 #ex2 esta com cara de um AR(1)
+
+# AR(1) com média diferente de zero: arima(serie_2, order = c(1,0,0)) 
+
+# Análise dos resíduos do modelo2
+modelo2 <- arima(serie_2, order = c(2,0,0))
+par(mfrow=c(1,2))
+acf(residuals(modelo2))
+pacf(residuals(modelo2))
